@@ -17,10 +17,12 @@ function divide(a, b) {
 }
 
 function inc(a) {
-  return (a = a++)
+  a = a++
+  return (a)
 }
 
 function dec(a) {
-  return (a = a--)
+  a = a--
+  return (a)
 }
 
