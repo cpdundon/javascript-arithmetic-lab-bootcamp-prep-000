@@ -22,7 +22,7 @@ function inc(a) {
 }
 
 function dec(a) {
-  a = a - 1
+  a--
   return (a)
 }
 
